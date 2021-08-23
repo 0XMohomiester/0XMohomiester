@@ -1,3 +1,1 @@
-### 0XMohomiester 
-
-[Writeup](./index.html) 
+### 0XMohomiester
