@@ -1,3 +1,3 @@
-### 0XMohomiester
+### 0XMohomiester 
 
-welcome to my writeup 
+[Writeup](./index.html) 
