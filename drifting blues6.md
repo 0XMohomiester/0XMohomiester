@@ -1,7 +1,7 @@
 ## DRIFTINGBLUE6 VULNHUB MACHINE
 
  Hello!  i am mohamed! This is my WriteUp for DriftingBlue6 VulnHub Machine Let's start with Setup Machine you can find Machine from [DriftingBlue6](https://www.vulnhub.com/entry/driftingblues-6,672) ok! download it and setup it on vmware i already finished the setup you should see this : 
- Hint : change extension from ".ovf" to ".ova"
+ #### Hint : change extension from ".ovf" to ".ova"
  
  ![setup](https://user-images.githubusercontent.com/47929033/130618015-aabced47-56df-4f42-b065-adddd93df422.png)
 
