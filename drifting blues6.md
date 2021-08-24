@@ -79,6 +79,7 @@ let's go to path file on web browser --> `http://IP/textpattern/files/` and run 
 
 as you can see we are in : 
 
+![shell](https://user-images.githubusercontent.com/47929033/130635631-f42277b6-18ab-4805-912c-d80d2479784a.png)
 
 
 
