@@ -97,7 +97,7 @@ as you can see we can now log into 'firefart' user and password '1234' let's do 
 
 ![priv2](https://user-images.githubusercontent.com/47929033/130643100-7da8fa30-9281-453e-91d4-64a3e67f6aff.png)
 
-now we have root privilegeon system ... let's locate flag.txt: 
+now we have root privilege on system ... let's locate flag.txt: 
 
 ![flag](https://user-images.githubusercontent.com/47929033/130643644-58708783-c090-403a-b019-a93c3abc4980.png)
 
