@@ -42,7 +42,13 @@ it's ZIP file!! let's try to extract it on terminal nut the ZIP file was encrypt
 ![ex](https://user-images.githubusercontent.com/47929033/130626167-915633dc-50f5-42de-8697-d6d0e2c59884.png)
 
 we can use fcrack tool to crack password of ZIP file ... you can download fcrack with command : 
-`sudo apt install fcrackzip`
+`sudo apt install fcrackzip` you can ask Google about fcrack tool, ok i will use command: 
+`fcrackzip -u -D -p /home/kali/Desktop/work/rockyou.txt spammer.zip`
+-D option for dictionary attack, -U option for unzip-file, -p for init password string, you can use 
+`fcrackzip -h` for help options, ok let's do it i will use rockyou.txt to crack it: 
+
+![crack](https://user-images.githubusercontent.com/47929033/130628068-5daaa8af-8445-44df-8088-3d9ffd074762.png)
+
 
 
 
