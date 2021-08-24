@@ -1,6 +1,7 @@
 ## DRIFTINGBLUE6 VULNHUB MACHINE
 
  Hello!  i am mohamed! This is my WriteUp for DriftingBlue6 VulnHub Machine Let's start with Setup Machine you can find Machine from [DriftingBlue6](https://www.vulnhub.com/entry/driftingblues-6,672) ok! download it and setup it on vmware i already finished the setup you should see this : 
+ Hint : change extension from ".ovf" to ".ova"
  
  ![setup](https://user-images.githubusercontent.com/47929033/130618015-aabced47-56df-4f42-b065-adddd93df422.png)
 
@@ -60,6 +61,8 @@ as you can see the file extracted is cred.txt ... this is the credentials for lo
 as you can see we are in ok let's try to find way to get command execution on web server let check "content>files"  i found upload page that's great : 
 
 ![con](https://user-images.githubusercontent.com/47929033/130630153-2d2043c6-32db-4e4d-a4cf-ffb9d4218c4f.png)
+
+
 
 
 
