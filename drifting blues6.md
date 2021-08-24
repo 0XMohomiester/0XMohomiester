@@ -88,7 +88,17 @@ Now we need to get high Privilege on system "Privilege Escalation" let's see wha
 ![priv](https://user-images.githubusercontent.com/47929033/130640894-ef9fee1b-a58e-42f9-be15-70fb6c3c380b.png)
 
 as you can see we can compile it with gcc let's do it in target machine with command : 
-`gcc -pthread 40839.c -o dirty -lcryp`
+`gcc -pthread 40839.c -o dirty -lcryp` and and run with `./dirty` then type a new password
+and wait a few second..  to creating a user with root privilege and finally: 
+
+![priv1](https://user-images.githubusercontent.com/47929033/130642583-95d61d0b-3b73-48bb-8850-70d9fb216046.png)
+
+as you can see we can now log into 'firefart' user and password '1234' let's do it and see: 
+
+![priv2](https://user-images.githubusercontent.com/47929033/130643100-7da8fa30-9281-453e-91d4-64a3e67f6aff.png)
+
+now we have root privilegeon system ... let's locate flag.txt: 
+
 
 
 
