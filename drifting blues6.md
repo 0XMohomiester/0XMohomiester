@@ -93,7 +93,7 @@ and wait a few second..  to creating a user with root privilege and finally:
 
 ![priv1](https://user-images.githubusercontent.com/47929033/130642583-95d61d0b-3b73-48bb-8850-70d9fb216046.png)
 
-as you can see we can now log into 'firefart' user and password '1234' let's do it and see: 
+as you can see we can now log in with 'firefart' user and password '1234' let's do it and see: 
 
 ![priv2](https://user-images.githubusercontent.com/47929033/130643100-7da8fa30-9281-453e-91d4-64a3e67f6aff.png)
 
