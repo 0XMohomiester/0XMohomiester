@@ -75,6 +75,12 @@ to get shell with command `nc -nlvp 1234` as you can see fle uploaded:
 
 let's go to path file on web browser --> `http://IP/textpattern/files/` and run it : 
 
+![file2](https://user-images.githubusercontent.com/47929033/130635366-2c291b34-a64c-4cd5-866b-7f05f708c837.png)
+
+as you can see we are in : 
+
+
+
 
 
 
