@@ -37,7 +37,10 @@ it's login page, that's great we can try another directory like spammer the we f
 
 ![spammer](https://user-images.githubusercontent.com/47929033/130625581-0f93acc5-9eab-475a-b6f0-0aa583c11216.png)
 
-it's ZIP file let's try to extract it with terminal 
+it's ZIP file let's try to extract it on terminal:
+
+![ex](https://user-images.githubusercontent.com/47929033/130626167-915633dc-50f5-42de-8697-d6d0e2c59884.png)
+
 
 
 
