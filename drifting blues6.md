@@ -13,5 +13,12 @@ Ok That's Great now we can use nmap to scan for open ports and service on machin
 
 ![nmap](https://user-images.githubusercontent.com/47929033/130621054-67f6eaf7-595d-4951-9826-52eed45c40cb.png)
 
+ok let's see web page with browser : 
+
+![web](https://user-images.githubusercontent.com/47929033/130621692-b3e4cf98-e04a-4f64-9bd6-92d996bd7a8d.png)
+
+as you can see >> CHARLES BROWN .. :)
+
+
 
 
