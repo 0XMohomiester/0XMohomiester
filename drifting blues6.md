@@ -79,7 +79,7 @@ let's go to path file on web browser --> `http://IP/textpattern/files/` and run 
 
 as you can see we are in, let's upgrade shell with python using command: 
  
- `python -c 'import pty; pty.spawn("/bin/bash")'`: 
+`python -c 'import pty; pty.spawn("/bin/bash")'`: 
 
 ![shell](https://user-images.githubusercontent.com/47929033/130637742-3c6ab5ee-b507-4d0c-9fba-fe2fff4b068f.png)
 
