@@ -1,5 +1,5 @@
 ## Welcome to my writeup
-###### [DRIFTINGBLUE:6 VULNHUB](./drifting blues6.html)
+### [DRIFTINGBLUE:6 VULNHUB](./drifting blues6.html)
 
 You can use the [editor on GitHub](https://github.com/0XMuhamed/0XMohomiester/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
