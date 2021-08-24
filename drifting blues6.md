@@ -53,6 +53,12 @@ as you can see password is: myspace4  let's extract file:
 
 ![ext](https://user-images.githubusercontent.com/47929033/130628809-a1d5b6e2-35ad-4e37-85b9-549ea93f4249.png)
 
+as you can see the file extracted is cred.txt ... this is the credentials for login page let's login with credentials: 
+
+![log2](https://user-images.githubusercontent.com/47929033/130629662-599b0da2-2b55-4365-9067-0205dba2eeca.png)
+
+
+
 
 
 
