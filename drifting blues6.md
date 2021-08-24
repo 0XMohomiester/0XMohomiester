@@ -19,6 +19,21 @@ ok let's see web page with browser :
 
 as you can see >> CHARLES BROWN .. :)
 
+we need now to discover some directories that hidden in website let's do it with gobuster i used command: 
+`gobuster dir --url http://192.168.1.6/ -w /home/kali/Desktop/directory-list-2.3-medium.txt -x php,html,css`
+i found some interesting directory like (robots.txt and spammer) Just like the photo below: 
+
+![dir](https://user-images.githubusercontent.com/47929033/130623604-a1f861cf-e22c-4ab9-a624-303616c0cd58.png)
+
+let's see robots.txt directory in web browser: 
+
+![ro](https://user-images.githubusercontent.com/47929033/130623878-0db64a64-ea5f-4b07-844e-4f1317894a08.png)
+
+
+
+
+
+
 
 
 
