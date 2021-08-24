@@ -4,7 +4,7 @@
  
  ![setup](https://user-images.githubusercontent.com/47929033/130618015-aabced47-56df-4f42-b065-adddd93df422.png)
 
-so! Let's Start with Enumeration i will use netdiscover to find ip address of machine i will use command ` sudo netdiscover `  on Kali Linux i found ip 192.168.1.6 with vmware,inc hostname : 
+so! Let's Start with Enumeration i will use netdiscover to find ip address of machine i will use command `sudo netdiscover`  on Kali Linux i found ip 192.168.1.6 with vmware,inc hostname : 
 
 ![net](https://user-images.githubusercontent.com/47929033/130619421-935dc7bf-a883-4c47-bc3d-35392589daa9.png)
 
