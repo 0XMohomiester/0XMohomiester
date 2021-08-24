@@ -29,6 +29,14 @@ let's see robots.txt directory in web browser:
 
 ![ro](https://user-images.githubusercontent.com/47929033/130623878-0db64a64-ea5f-4b07-844e-4f1317894a08.png)
 
+oh!! i found directory "Disallowed" "/textpattern/textpattern" let's see it : 
+
+![log](https://user-images.githubusercontent.com/47929033/130624859-fe2a1a68-b814-4bba-8ec2-f3d8815131de.png)
+
+it's login page, that's great we can try another directory like spammer the we found on gobuster : 
+
+
+
 
 
 
