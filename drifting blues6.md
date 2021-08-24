@@ -35,7 +35,9 @@ oh!! i found directory "Disallowed" "/textpattern/textpattern" let's see it :
 
 it's login page, that's great we can try another directory like spammer the we found on gobuster : 
 
+![spammer](https://user-images.githubusercontent.com/47929033/130625581-0f93acc5-9eab-475a-b6f0-0aa583c11216.png)
 
+it's ZIP file let's try to extract it with terminal 
 
 
 
