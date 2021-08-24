@@ -9,7 +9,7 @@ so! Let's Start with Enumeration i will use netdiscover to find ip address of ma
 ![net](https://user-images.githubusercontent.com/47929033/130619421-935dc7bf-a883-4c47-bc3d-35392589daa9.png)
 
 Ok That's Great now we can use nmap to scan for open ports and service on machine i used command:
- `nmap -Pn -sV -A -sC 192.168.1.6` i found only 1 port open on HTTP web service on port 80 : 
+    `nmap -Pn -sV -A -sC 192.168.1.6` i found only 1 port open on HTTP web service on port 80 : 
 
 ![nmap](https://user-images.githubusercontent.com/47929033/130621054-67f6eaf7-595d-4951-9826-52eed45c40cb.png)
 
