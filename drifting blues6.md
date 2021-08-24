@@ -63,6 +63,11 @@ as you can see we are in ok let's try to find way to get command execution on we
 
 ![con](https://user-images.githubusercontent.com/47929033/130630153-2d2043c6-32db-4e4d-a4cf-ffb9d4218c4f.png)
 
+we can now ask google about php-reverse-shell.php you can get from [php-reverse-shell](https://raw.githubusercontent.com/pentestmonkey/php-reverse-shell/master/php-reverse-shell.php) 
+download it with wget on your attacking machine and change $ip to your ip that you will listen it :
+
+
+
 
 
 
