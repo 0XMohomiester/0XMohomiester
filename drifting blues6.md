@@ -73,7 +73,7 @@ to get shell with command `nc -nlvp 1234` as you can see fle uploaded:
 
 ![file](https://user-images.githubusercontent.com/47929033/130633923-95c7db91-0691-4630-b233-18056478ea7f.png)
 
-let's go to path file on web browser and run it 
+let's go to path file on web browser --> `http://IP/textpattern/files/` and run it : 
 
 
 
