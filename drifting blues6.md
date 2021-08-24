@@ -64,9 +64,18 @@ as you can see we are in ok let's try to find way to get command execution on we
 ![con](https://user-images.githubusercontent.com/47929033/130630153-2d2043c6-32db-4e4d-a4cf-ffb9d4218c4f.png)
 
 we can now ask google about php-reverse-shell.php you can get from [php-reverse-shell](https://raw.githubusercontent.com/pentestmonkey/php-reverse-shell/master/php-reverse-shell.php) 
-download it with wget on your attacking machine and change $ip to your ip that you will listen it :
+download it with `wget <link>` on your attacking machine and change $ip to your ip that you will listen it :
 
 ![subl](https://user-images.githubusercontent.com/47929033/130632986-daddb932-6b5e-4e1f-8ae4-d2daddfbf158.png)
+
+let's upload it to get shell but don't forget to run listner on your machine i will use netcat 
+to get shell with command `nc -nlvp 1234` as you can see fle uploaded: 
+
+![file](https://user-images.githubusercontent.com/47929033/130633923-95c7db91-0691-4630-b233-18056478ea7f.png)
+
+let's go to path file on web browser and run it 
+
+
 
 
 
