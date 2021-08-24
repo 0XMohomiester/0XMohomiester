@@ -57,6 +57,9 @@ as you can see the file extracted is cred.txt ... this is the credentials for lo
 
 ![log2](https://user-images.githubusercontent.com/47929033/130629662-599b0da2-2b55-4365-9067-0205dba2eeca.png)
 
+as you can see we are in ok let's try to find way to get command execution on web server let check "content>files"  i found upload page that's great : 
+
+![con](https://user-images.githubusercontent.com/47929033/130630153-2d2043c6-32db-4e4d-a4cf-ffb9d4218c4f.png)
 
 
 
