@@ -33,13 +33,18 @@ oh!! i found directory "Disallowed" "/textpattern/textpattern" let's see it :
 
 ![log](https://user-images.githubusercontent.com/47929033/130624859-fe2a1a68-b814-4bba-8ec2-f3d8815131de.png)
 
-it's login page, that's great we can try another directory like spammer the we found on gobuster : 
+it's login page!!, that's great we can try another directory like spammer the we found on gobuster : 
 
 ![spammer](https://user-images.githubusercontent.com/47929033/130625581-0f93acc5-9eab-475a-b6f0-0aa583c11216.png)
 
-it's ZIP file let's try to extract it on terminal:
+it's ZIP file!! let's try to extract it on terminal nut the ZIP file was encrypted with password :
 
 ![ex](https://user-images.githubusercontent.com/47929033/130626167-915633dc-50f5-42de-8697-d6d0e2c59884.png)
+
+we can use fcrack tool to crack password of ZIP file ... you can download fcrack with command : 
+`sudo apt install fcrackzip`
+
+
 
 
 
