@@ -66,6 +66,7 @@ as you can see we are in ok let's try to find way to get command execution on we
 we can now ask google about php-reverse-shell.php you can get from [php-reverse-shell](https://raw.githubusercontent.com/pentestmonkey/php-reverse-shell/master/php-reverse-shell.php) 
 download it with wget on your attacking machine and change $ip to your ip that you will listen it :
 
+![subl](https://user-images.githubusercontent.com/47929033/130632986-daddb932-6b5e-4e1f-8ae4-d2daddfbf158.png)
 
 
 
