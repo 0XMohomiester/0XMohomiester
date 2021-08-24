@@ -49,6 +49,11 @@ we can use fcrack tool to crack password of ZIP file ... you can download fcrack
 
 ![crack](https://user-images.githubusercontent.com/47929033/130628068-5daaa8af-8445-44df-8088-3d9ffd074762.png)
 
+as you can see password is: myspace4  let's extract file: 
+
+![ext](https://user-images.githubusercontent.com/47929033/130628809-a1d5b6e2-35ad-4e37-85b9-549ea93f4249.png)
+
+
 
 
 
