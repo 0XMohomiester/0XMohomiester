@@ -84,7 +84,7 @@ as you can see we are in, let's upgrade shell with python using command:
 ![shell](https://user-images.githubusercontent.com/47929033/130637742-3c6ab5ee-b507-4d0c-9fba-fe2fff4b068f.png)
 
 Now we need to get high Privilege on system "Privilege Escalation" let's see what is the version of linux system by using command : `uname -a` i found `3.2.0-4-amd64` by asking Google about any exploit i found Privilege Escalation exploit in exploit-db - exploit from [Privilege Escalation](https://www.exploit-db.com/exploits/40839) download it with `wget <link of exploit>` on your machine and tranfer it from your machine to target machine with python --> 
-with command: `python -m SimpleHTTPServer 8080` ... you can try another way to upload exploit on web server from web browser ok i already download it in target machine let's see how to exploit:
+with command: `python -m SimpleHTTPServer 8080` ... you can try another way to upload exploit on web server from web browser, i already download it in target machine let's see how to exploit:
 
 ![priv](https://user-images.githubusercontent.com/47929033/130640894-ef9fee1b-a58e-42f9-be15-70fb6c3c380b.png)
 
