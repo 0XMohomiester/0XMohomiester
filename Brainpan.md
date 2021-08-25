@@ -22,6 +22,8 @@ as you can see two ports are open `9999,10000` let's check port `9999` with netc
 ![Screen Shot 2021-08-26 at 12 49 20 AM](https://user-images.githubusercontent.com/47929033/130877350-d1d98332-3831-4c9b-a820-031966af52d9.png) 
 
 as you can see this is the vulnerable service: `Brainpan`, That's Great, It's web server that run on port `10000` now we need to discover some interesting directories that hidden in webiste by using Gobuster using command: 
-`gobuster dir  --url http://192.168.1.13:10000/  -w /home/kali/Desktop/directory-list-2.3-medium.txt` 
+`gobuster dir  --url http://192.168.1.13:10000/  -w /home/kali/Desktop/directory-list-2.3-medium.txt`
+
+
 
 
