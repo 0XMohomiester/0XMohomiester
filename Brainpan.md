@@ -26,6 +26,10 @@ as you can see this is the vulnerable service: `Brainpan`,maybe port `10000` is 
 That's Great, It's web server that run on port `10000` now we need to discover some interesting directories that hidden in webiste by using Gobuster using command: 
 `gobuster dir  --url http://192.168.1.13:10000/  -w /home/kali/Desktop/directory-list-2.3-medium.txt`
 
+![Screen Shot 2021-08-26 at 12 40 56 AM](https://user-images.githubusercontent.com/47929033/130877722-9c037be4-a6f8-4f5d-8e69-5cd6e10d891e.png)
+
+as you can see i found directory `/bin` let me see in browser: 
+
 
 
 
