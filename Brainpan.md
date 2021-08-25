@@ -37,7 +37,8 @@ i will tranfer the programe to windows machine and run it:
 
 ![Screen Shot 2021-08-26 at 1 43 00 AM](https://user-images.githubusercontent.com/47929033/130878391-e18acbce-e348-4f65-b4a3-cbdb54794f49.png)
 
-we need [Immunity Debugger](https://debugger.immunityinc.com/) to open application and see how it works During exploition phase  
+as you can see the programe listen on port 9999 and waitin for connection, we need [Immunity Debugger](https://debugger.immunityinc.com/) to open application and see how it works During exploition phase
+i already download, i willl open and run as administrator to attach service    
 
 
 
