@@ -33,5 +33,13 @@ as you can see i found directory `/bin` let me see in browser:
 ![Screen Shot 2021-08-26 at 12 40 35 AM](https://user-images.githubusercontent.com/47929033/130877992-ccdee6c7-91a5-4197-8106-e54b5839a92c.png)
 
 oh! it's e executable file now we need to switch to windows machine on vmware to run programe
+i will tranfer the programe to windows machine and run it: 
+
+![Screen Shot 2021-08-26 at 1 43 00 AM](https://user-images.githubusercontent.com/47929033/130878391-e18acbce-e348-4f65-b4a3-cbdb54794f49.png)
+
+we need [Immunity Debugger](https://debugger.immunityinc.com/) to open application and see how it works During exploition phase  
+
+
+
 
 
