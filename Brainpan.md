@@ -32,4 +32,6 @@ as you can see i found directory `/bin` let me see in browser:
 
 ![Screen Shot 2021-08-26 at 12 40 35 AM](https://user-images.githubusercontent.com/47929033/130877992-ccdee6c7-91a5-4197-8106-e54b5839a92c.png)
 
+oh! it's e executable file now we need to switch to windows machine on vmware to run programe
+
 
