@@ -38,7 +38,15 @@ i will tranfer the programe to windows machine and run it:
 ![Screen Shot 2021-08-26 at 1 43 00 AM](https://user-images.githubusercontent.com/47929033/130878391-e18acbce-e348-4f65-b4a3-cbdb54794f49.png)
 
 as you can see the programe listen on port 9999 and waitin for connection, we need [Immunity Debugger](https://debugger.immunityinc.com/) to open application and see how it works During exploition phase
-i already download it , i will open and run as administrator to attach service: 
+I already download it , I will open and run it as administrator to attach service: 
+
+![Screen Shot 2021-08-26 at 1 49 10 AM](https://user-images.githubusercontent.com/47929033/130878958-189b07db-6e2d-41bd-a594-fe77294799a0.png) 
+
+as you can see service name: `Brainpan` with PID `2108` after attack it run programe from `F9` in your keyboard and make sure that the programe is running in the right down side: 
+
+
+
+
 
 
 
