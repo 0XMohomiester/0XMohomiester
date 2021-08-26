@@ -98,7 +98,7 @@ The string that crased applicaton: `600` of `A`, That's Great now we can write a
 
 ```
 #!/usr/bin/python 
-import sicket 
+import socket 
 
 buffer = 'A' * 600 
 
@@ -116,6 +116,8 @@ s.close()
 
 ```
 I will run exploit to see the programe crash or not : 
+
+
 
 
 
