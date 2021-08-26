@@ -96,7 +96,7 @@ as you can see tha programe crased and EIP register: `41414141`
 
 The string that crased applicaton: `600` of `A`, That's Great now we can write a exploit to know which four bytes that OverWrtie `EIP`: 
 
-## Hint : CTR+F2 to restart debugger ans service  and F9 to run service an debugger 
+#### Hint : CTR+F2 to restart debugger ans service  and F9 to run service an debugger 
 
 ```
 #!/usr/bin/python 
