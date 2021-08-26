@@ -126,3 +126,10 @@ I will run exploit to see the programe crash or not :
 as you can see the programe crashed Now, let's create a unique string with `msf-pattern-create`, using command: `msf-pattern_create -l 600` and copy the unique string to exploit :
 
 ![Screen Shot 2021-08-26 at 2 35 02 AM](https://user-images.githubusercontent.com/47929033/130881775-6f0d9492-07ad-4060-b0af-083e2ef4c33b.png)
+
+as you can see the programe crashed at EIP: `35724134` we can now use `msf-pattern-offset`
+to know which four byte that  OverWrite `EIP` by using command `msf-pattern_offset -q 35724134`:
+``
+[*] Exact match at offset 524
+
+``
