@@ -3,19 +3,19 @@ Hello! I am [Mohamed](https://twitter.com/0xMohomiester) This is My WriteUp for 
 
 ![brainp](https://user-images.githubusercontent.com/47929033/130876624-1b4dc000-bcb9-467c-87db-30b5ec3af179.png)
 
-That's great Let's start with enumeration I need to now ip address of machine so i will use command 
+That's great Let's start with enumeration I need to know ip address of machine so i will use command 
 `sudo netdiscover` to find ip address: 
 
 ![Screen Shot 2021-08-26 at 12 44 34 AM](https://user-images.githubusercontent.com/47929033/130876911-b5242212-661d-4646-989c-c8772a9b85d2.png)
 
-as you can see the ip address: `192.168.1.6` with `vmware,inc` hostname now we need to perform port scanning I will use nmap to scan for open port and service on machinewith command:
+as you can see the ip address: `192.168.1.13` with `vmware,inc` hostname now we need to perform port scanning I will use nmap to scan for open port and service on machinewith command:
 
-`sudo nmap 192.168.1.6` : 
+`sudo nmap 192.168.1.13` : 
 
 ![Screen Shot 2021-08-26 at 12 48 27 AM](https://user-images.githubusercontent.com/47929033/130877152-5af6c1f5-28b4-4bc2-bc16-dc239560a2c5.png) 
 
 as you can see two ports are open `9999,10000` let's check port `9999` with netcat using command 
-`nc -nvv 192.168.1.6 9999`:
+`nc -nvv 192.168.1.13 9999`:
 
 ![Screen Shot 2021-08-26 at 12 49 00 AM](https://user-images.githubusercontent.com/47929033/130877337-dbaddc9d-fb3c-4a03-add2-ed49cbea2e7e.png)
 
