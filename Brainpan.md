@@ -159,14 +159,14 @@ as you can see the address is `0x311712f3` that's Great we need Now to Discover 
 
 ```
 import sys
-for x in range(1,256):
+for x in range(0,256):
     sys.stdout.write("\\x" + '{:02x}'.format(x))
 ```
-![Screen Shot 2021-08-26 at 1 30 56 PM](https://user-images.githubusercontent.com/47929033/130955423-5d6085c7-0cd1-46bd-b0e2-b03ed0d6430e.png)
+![Screen Shot 2021-08-26 at 1 54 23 PM](https://user-images.githubusercontent.com/47929033/130958481-3cf9d696-e6c7-4286-968a-abe0a2ea719d.png)
 
 as you can see this is badchar string let's copy it to exploit and send it: 
 
-![Screen Shot 2021-08-26 at 1 35 08 PM](https://user-images.githubusercontent.com/47929033/130955928-ff9bd0a3-fd38-4718-a2ce-b7da8fdfd3e4.png) 
+![Screen Shot 2021-08-26 at 1 55 00 PM](https://user-images.githubusercontent.com/47929033/130958516-e041043b-8131-4c05-ac17-95661423f976.png)
 
 let's run our exploit to see how to know badchar from stack: 
 
