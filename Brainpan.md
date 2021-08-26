@@ -146,4 +146,7 @@ as you can see we can control EIP register with `BBBB` that's Great no we need t
 
 ![Screen Shot 2021-08-26 at 1 06 26 PM](https://user-images.githubusercontent.com/47929033/130952539-25118c43-c5f0-4010-99d0-fd3a529296aa.png)
 
-as you can see this is module we will use module with have all false 
+as you can see this is module we will use module with have all false but we need to use `msf-nasm-shell` to know the code of `JMP ESP register ` we can use command: `msf-nasm-shell`
+then type `JMP ESP`, Just Like the image Below: 
+
+![Screen Shot 2021-08-26 at 1 15 29 PM](https://user-images.githubusercontent.com/47929033/130953400-3f30e6ab-5c8e-4167-a8ea-b6d82994bddb.png)
