@@ -142,11 +142,15 @@ let's run exploit to see the crash:
 
 ![Screen Shot 2021-08-26 at 12 59 09 PM](https://user-images.githubusercontent.com/47929033/130951288-663f42f7-c034-4222-9885-2b42cf3f1524.png)
 
-as you can see we can control EIP register with `BBBB` that's Great no we need to find `JMP ESP` register to execute our shellcode in the application to get shell we can use [mona.py](https://github.com/corelan/mona) to do this operation, first I will use command: `!mona modules` to find mosules  that don't have ASLR and DES: 
+as you can see we can control EIP register with `BBBB` that's Great, now we need to find `JMP ESP` register to execute our shellcode in the application to get shell we can use [mona.py](https://github.com/corelan/mona) to do this operation, first I will use command: `!mona modules` to find mosules  that don't have ASLR and DES: 
 
 ![Screen Shot 2021-08-26 at 1 06 26 PM](https://user-images.githubusercontent.com/47929033/130952539-25118c43-c5f0-4010-99d0-fd3a529296aa.png)
 
-as you can see this is module, we will use module with have all false but we need to use `msf-nasm-shell` to know the code of `JMP ESP register ` we can use command: `msf-nasm-shell`
+as you can see this is module, we will use module with have all false `brainpan.exe` but we need to use `msf-nasm-shell` to know the code of `JMP ESP register ` we can use command: `msf-nasm-shell`
 then type `JMP ESP`, Just Like the image Below: 
 
 ![Screen Shot 2021-08-26 at 1 15 29 PM](https://user-images.githubusercontent.com/47929033/130953400-3f30e6ab-5c8e-4167-a8ea-b6d82994bddb.png)
+
+Now we can use mona command: `!mona find -s '\xff\xe4' -m barinpan.exe`: 
+
+![Screen Shot 2021-08-26 at 1 19 40 PM](https://user-images.githubusercontent.com/47929033/130954379-c392d007-48f1-4fdf-b398-84ee0183f380.png)
