@@ -1,4 +1,4 @@
-## Hello! I'm [Mohamed](https://twitter.com/0xMohomiester) This is my WriteUps for some interesting VulnHub machine, Hope you Guys to Enjoy 
+## Hello! I'm [Mohamed](https://twitter.com/0xMohomiester) This is my WriteUps for some interesting VulnHub machines, Hope you Guys to Enjoy 
 
 ## [DRIFTINGBLUE:6 VULNHUB MACHINE](./drifting blues6.html)
 
