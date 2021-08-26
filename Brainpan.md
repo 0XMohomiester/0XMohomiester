@@ -154,3 +154,11 @@ then type `JMP ESP`, Just Like the image Below:
 Now we can use mona command: `!mona find -s '\xff\xe4' -m barinpan.exe` : 
 
 ![Screen Shot 2021-08-26 at 1 19 40 PM](https://user-images.githubusercontent.com/47929033/130954379-c392d007-48f1-4fdf-b398-84ee0183f380.png)
+
+as you can see the address is `0x311712f3` that's Great we need Now to Discover Badchar that cutting shellcode and can break code execution let's learn how to know `Badchar`, you can create a string of most common badchar with followin python code:
+
+```
+import sys
+for x in range(1,256):
+    sys.stdout.write("\\x" + '{:02x}'.format(x))
+```
