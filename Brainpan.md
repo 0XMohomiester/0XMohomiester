@@ -92,6 +92,8 @@ as you can see fuzzer stoped with string of `AAA` how to know number of `A` ? it
 
 as you can see tha programe crased and EIP register: `41414141`
 
+![Screen Shot 2021-08-26 at 2 06 32 AM](https://user-images.githubusercontent.com/47929033/130881445-09e4193f-8c01-4a6e-8116-6cbcea6d23fc.png)
+
 The string that crased applicaton: `600` of `A`, That's Great now we can write a exploit to know which four bytes that OverWrtie `EIP`: 
 
 ## Hint : CTR+F2 to restart debugger ans service  and F9 to run service an debugger 
@@ -116,6 +118,11 @@ s.close()
 
 ```
 I will run exploit to see the programe crash or not : 
+
+![Screen Shot 2021-08-26 at 2 26 21 AM](https://user-images.githubusercontent.com/47929033/130881239-d8dcb070-d15a-480c-adfb-fd28dacba624.png)
+
+as you can see the programe crashed Now, let's create a unique string with `msf-pattern-create`, using command: `msf-pattern_create -l 600` and copy the unique string to exploit to 
+
 
 
 
