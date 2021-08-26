@@ -162,3 +162,12 @@ import sys
 for x in range(1,256):
     sys.stdout.write("\\x" + '{:02x}'.format(x))
 ```
+![Screen Shot 2021-08-26 at 1 30 56 PM](https://user-images.githubusercontent.com/47929033/130955423-5d6085c7-0cd1-46bd-b0e2-b03ed0d6430e.png)
+
+as you can see this is badchar string let's copy it to exploit and send it: 
+
+![Screen Shot 2021-08-26 at 1 35 08 PM](https://user-images.githubusercontent.com/47929033/130955928-ff9bd0a3-fd38-4718-a2ce-b7da8fdfd3e4.png) 
+
+let's run our exploit to see how to know badchar from stack: 
+
+
