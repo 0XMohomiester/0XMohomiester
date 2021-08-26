@@ -174,4 +174,10 @@ let's run our exploit to see how to know badchar from stack:
 
 as you can see programe crashed then go to ESP `Stack Pointer` to see our payload in stack: 
 
+![Screen Shot 2021-08-26 at 2 01 35 PM](https://user-images.githubusercontent.com/47929033/130960475-f43bfb48-2eca-42da-b4bd-fdd93a1d542a.png)
 
+as you can see after last `C` the `\x00` truncated the string, if I removed `\x00` from exploit - resutlt:
+
+![Screen Shot 2021-08-26 at 2 09 25 PM](https://user-images.githubusercontent.com/47929033/130960229-6324294c-e7ef-4ed1-9035-1cf3fbb5d8f1.png)
+
+as you can see the string are in the stack without any truncated
