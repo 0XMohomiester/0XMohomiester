@@ -181,4 +181,4 @@ as you can see after last `C` the string was truncated , if I removed `"\x00"` f
 ![Screen Shot 2021-08-26 at 2 09 25 PM](https://user-images.githubusercontent.com/47929033/130960229-6324294c-e7ef-4ed1-9035-1cf3fbb5d8f1.png)
 
 as you can see the string are in the stack without any truncated from `"\x01\x02"` to `"\xff"`: 
-there is no any other badchar in string only `"\x00"` is NullByte now we need to create shellcode with msfvenom to gaining access on system 
+there is no any other badchar in string only `"\x00"` is NullByte now we need to create shellcode with msfvenom to gaining access on system :
