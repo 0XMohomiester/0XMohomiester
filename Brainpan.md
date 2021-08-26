@@ -132,5 +132,4 @@ to know which four bytes that OverWrite `EIP` by using command `msf-pattern_offs
 
 ``
 [*] Exact match at offset 524
-
 ``
