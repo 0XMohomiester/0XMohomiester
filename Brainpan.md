@@ -133,3 +133,8 @@ to know which four bytes that OverWrite `EIP` by using command `msf-pattern_offs
 ```
 [*] Exact match at offset 524
 ```
+Now we need to OverWrite EIP with `BBBB` i will send `524 * A` + `BBBB` + `72 * C` 
+then Total Length: 600 then exploit should be: 
+
+![Screen Shot 2021-08-26 at 2 50 19 AM](https://user-images.githubusercontent.com/47929033/130882763-af86b608-bbc4-4d07-9a6d-8f33c9a74b48.png)
+
