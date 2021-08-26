@@ -138,3 +138,7 @@ then Total Length: 600 then exploit should be:
 
 ![Screen Shot 2021-08-26 at 2 50 19 AM](https://user-images.githubusercontent.com/47929033/130882763-af86b608-bbc4-4d07-9a6d-8f33c9a74b48.png)
 
+let's run exploit to see the crash:
+
+![Screen Shot 2021-08-26 at 12 59 09 PM](https://user-images.githubusercontent.com/47929033/130951288-663f42f7-c034-4222-9885-2b42cf3f1524.png)
+
