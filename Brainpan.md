@@ -129,6 +129,7 @@ as you can see the programe crashed Now, let's create a unique string with `msf-
 
 as you can see the programe crashed at EIP: `35724134` we can now use `msf-pattern-offset`
 to know which four byte that  OverWrite `EIP` by using command `msf-pattern_offset -q 35724134`:
+
 ``
 [*] Exact match at offset 524
 
