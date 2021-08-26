@@ -96,7 +96,7 @@ as you can see tha programe crased and EIP register: `41414141`
 
 The string that crased applicaton: `600` of `A`, That's Great now we can write a exploit to know which four bytes that OverWrtie `EIP`: 
 
-### Hint : CTR+F2 to restart debugger and service  and F9 to run debugger an service 
+### Hint : CTR+F2 to restart debugger and service  and F9 to run debugger and service 
 
 exploit:
 
@@ -126,5 +126,3 @@ I will run exploit to see the programe crash or not :
 as you can see the programe crashed Now, let's create a unique string with `msf-pattern-create`, using command: `msf-pattern_create -l 600` and copy the unique string to exploit :
 
 ![Screen Shot 2021-08-26 at 2 35 02 AM](https://user-images.githubusercontent.com/47929033/130881775-6f0d9492-07ad-4060-b0af-083e2ef4c33b.png)
-
-
