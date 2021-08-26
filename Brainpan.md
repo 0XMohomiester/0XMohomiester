@@ -170,4 +170,8 @@ as you can see this is badchar string let's copy it to exploit and send it:
 
 let's run our exploit to see how to know badchar from stack: 
 
+![Screen Shot 2021-08-26 at 1 57 51 PM](https://user-images.githubusercontent.com/47929033/130958838-d17cc991-c88a-4031-902a-754db2742c1d.png)
+
+as you can see programe crashed then go to ESP `Stack Pointer` to see our payload in stack: 
+
 
