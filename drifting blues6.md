@@ -104,24 +104,3 @@ now we have root privilege on system ... let's locate flag.txt:
 hope you guys to enjoy with this machine...;)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
