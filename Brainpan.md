@@ -254,7 +254,7 @@ copy the shellcode to exploit and run exploit by changing ip address then final 
 
 ![Screen Shot 2021-10-19 at 5 32 12 PM](https://user-images.githubusercontent.com/47929033/137943442-9e2c3e39-24a8-4b47-ad65-a5eda74b31b3.png)
 
-Run exploit again and listen to port 443 to get a reverse shell by using netcat : 
+Run exploit again and listen on port 443 to get a reverse shell using netcat : 
 
 ![Screen Shot 2021-10-19 at 5 22 08 PM](https://user-images.githubusercontent.com/47929033/137941985-09e8d509-2717-4f0d-b1c2-21aa0a00e6e3.png)
 
