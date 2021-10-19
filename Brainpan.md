@@ -258,9 +258,4 @@ Run exploit again and listen on port 443 to get a reverse shell using netcat :
 
 ![Screen Shot 2021-10-19 at 5 22 08 PM](https://user-images.githubusercontent.com/47929033/137941985-09e8d509-2717-4f0d-b1c2-21aa0a00e6e3.png)
 
-as you can see we are now into the machine with user puck ...:) Hope you to understand how to perform bufferoverflow attack Don't forget to follow me on [Twitter](https://twitter.com/0xMohomiester) 
-
-
-
-
-
+as you can see we are now into the machine with user puck ...:) Hope you to understand how to perform bufferoverflow attack, If you have any question you can contact me to [Twitter](https://twitter.com/0xMohomiester)
