@@ -250,4 +250,6 @@ as you can see :
 
 ![Screen Shot 2021-10-19 at 5 16 11 PM](https://user-images.githubusercontent.com/47929033/137940464-12d650d3-7811-4b94-aaac-0ad4ca621536.png)
 
+copy the shellcode to exploit and run exploit by changing ip address : 
+
 
