@@ -236,3 +236,8 @@ s.recv(1024)
 s.close() 
 
 ```
+
+after sending exploit : 
+
+![Screen Shot 2021-10-19 at 4 53 29 PM](https://user-images.githubusercontent.com/47929033/137936267-f64d6d18-8243-467e-a507-c6205868a741.png)
+
