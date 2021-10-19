@@ -90,11 +90,11 @@ as you can see fuzzer stoped with string of `AAA` how to know number of `A` ? it
 
 ![Screen Shot 2021-08-26 at 2 07 45 AM](https://user-images.githubusercontent.com/47929033/130880433-95cb1c84-9dcc-4192-b79b-173a7490b81c.png)
 
-as you can see tha programe crased and EIP register: `41414141`
+as you can see tha programe crashed and EIP register: `41414141`
 
 ![Screen Shot 2021-08-26 at 2 06 32 AM](https://user-images.githubusercontent.com/47929033/130881445-09e4193f-8c01-4a6e-8116-6cbcea6d23fc.png)
 
-The string that crased applicaton: `600` of `A`, That's Great now we can write a exploit to know which four bytes that OverWrtie `EIP`: 
+The string that crashed applicaton: `600` of `A`, That's Great now we can write a exploit to know which four bytes that OverWrtie `EIP`: 
 
 ### Hint : CTRL+F2 to restart debugger and service and F9 to run Immunity debugger 
 
@@ -240,4 +240,5 @@ s.close()
 after sending exploit : 
 
 ![Screen Shot 2021-10-19 at 4 53 29 PM](https://user-images.githubusercontent.com/47929033/137936267-f64d6d18-8243-467e-a507-c6205868a741.png)
+
 
